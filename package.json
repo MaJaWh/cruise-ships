@@ -1,0 +1,11 @@
+{
+  "name": "cruise-ships",
+  "version": "1.0.0",
+  "description": "Manchester Codes cruise-ships project created by Mark Whitehead",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mark Whitehead",
+  "license": "ISC"
+}
