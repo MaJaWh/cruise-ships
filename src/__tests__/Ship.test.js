@@ -1,6 +1,7 @@
 /* globals describe it expect */
 
 const Ship = require("../Ship");
+const Port = require("../Port");
 
 describe("Ship", () => {
   it("can be instantiated", () => {
@@ -13,13 +14,15 @@ describe("Ship", () => {
   });
 
   it("has a starting port", () => {
-    const ship = new Ship("Alliance");
-    expect(ship.startingPort).toEqual(0);
+    const port = new Port("Dover");
+    const ship = new Ship(port);
+    expect(ship.currentPort).toBe(port);
   });
 
   it("sets sail", () => {
-    const ship = new Ship("Alliance");
+    const port = new Port("Dover");
+    const ship = new Ship(port);
     ship.setSail();
-    expect(Ship.startingPort).toBeFalsy();
+    expect(Ship.currentPort).toBeFalsy();
   });
 });
