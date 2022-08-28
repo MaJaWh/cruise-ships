@@ -73,4 +73,18 @@ describe("Ship", () => {
 
     expect(port.ships).toContain(ship);
   });
+
+  it("can remove a ship", () => {
+    const port = new Port("Dover");
+    const titanic = {};
+    const queenMary = {};
+
+    port.addShip(titanic);
+    port.addShip(queenMary);
+    console.log(port);
+    port.removeShip(queenMary);
+    console.log(port);
+
+    expect(port.ships).toEqual([titanic]);
+  });
 });
