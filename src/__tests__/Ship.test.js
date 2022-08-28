@@ -64,4 +64,13 @@ describe("Ship", () => {
 
     expect(() => ship.setSail()).toThrowError("End of itinerary reached");
   });
+
+  it("can add a ship", () => {
+    const port = new Port("Dover");
+    const ship = {};
+
+    port.addShip(ship);
+
+    expect(port.ships).toContain(ship);
+  });
 });
