@@ -2,7 +2,7 @@ const Port = require("../Port");
 
 describe("Port", () => {
   it("can be instantiated", () => {
-    expect(new Port()).toBeInstanceOf(Object);
+    expect(Port).toBeInstanceOf(Object);
   });
 
   it("has a name", () => {
