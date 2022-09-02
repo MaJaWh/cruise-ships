@@ -1,7 +1,7 @@
 // const port = require("./Port");
 // const itinerary = require("./Itinerary");
 
-(function exportPort() {
+(function exportShip() {
   class Ship {
     //   constructor(name, itinerary) {
     // this.name = name;
@@ -46,5 +46,3 @@
     window.Ship = Ship;
   }
 })();
-
-// module.exports = Ship;

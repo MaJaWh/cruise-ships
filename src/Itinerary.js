@@ -1,6 +1,6 @@
 // const port = require("./Port");
 
-(function exportPort() {
+(function exportItineray() {
   class Itinerary {
     constructor(ports) {
       this.ports = ports;

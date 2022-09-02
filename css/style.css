@@ -29,3 +29,20 @@ body {
   height: 32px;
   background-image: url("../images/port.png");
 }
+
+#ship {
+  width: 128px;
+  height: 64px;
+  background-image: url("../images/ship.png");
+  position: absolute;
+}
+
+#sailbutton {
+  width: 640px;
+  height: 40px;
+  position: absolute;
+  background-color: blue;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+}
