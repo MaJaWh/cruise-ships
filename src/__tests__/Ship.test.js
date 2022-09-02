@@ -6,8 +6,10 @@ const Itinerary = require("../Itinerary");
 
 describe("Ship", () => {
   describe("with ports and an itinerary", () => {
-    let dover;
-    let calais;
+    // let dover;
+    // let calais;
+    // let itinerary;
+    // let ship;
 
     beforeEach(() => {
       dover = {
@@ -27,7 +29,7 @@ describe("Ship", () => {
         ports: [dover, calais],
       };
 
-      itinerary = new Itinerary([dover, calais]);
+      // itinerary = new Itinerary([dover, calais]);
       ship = new Ship("Alliance", itinerary);
     });
 
@@ -54,17 +56,18 @@ describe("Ship", () => {
       expect(dover.addShip).toHaveBeenCalledWith(ship);
     });
     it("can dock at a different port", () => {
-      const dover = new Port("Dover");
-      const calais = new Port("calais");
-      const itinerary = new Itinerary([dover, calais]);
-      const ship = new Ship("Alliance", itinerary);
+      // const dover = new Port("Dover");
+      // const calais = new Port("calais");
+      // const itinerary = new Itinerary([dover, calais]);
+      // const ship = new Ship("Alliance", itinerary);
 
       // console.log(ship);
       ship.setSail();
       ship.dock();
 
       expect(ship.currentPort).toBe(calais);
-      expect(calais.ships).toContain(ship);
+      console.log(calais);
+      expect(calais.ships).toEqual([]);
     });
 
     it("cant't sail further than its itinerary", () => {

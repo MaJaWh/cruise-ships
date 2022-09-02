@@ -16,4 +16,4 @@ class Port {
     return this.ships.splice(indexInArray, 1);
   }
 }
-module.exports = Port;
+// module.exports = Port;

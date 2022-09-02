@@ -1,9 +1,14 @@
-const port = require("./Port");
+// const port = require("./Port");
 
-class Itinerary {
-  constructor(ports) {
-    this.ports = ports;
+(function exportPort() {
+  class Itinerary {
+    constructor(ports) {
+      this.ports = ports;
+    }
   }
-}
-
-module.exports = Itinerary;
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = Itinerary;
+  } else {
+    window.Itinerary = Itinerary;
+  }
+})();
