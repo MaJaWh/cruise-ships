@@ -1,4 +1,4 @@
-# CRUISE-SHIPS with GUI
+# CRUISE-SHIPS
 
 ### CONTENTS OF THIS FILE
 
@@ -38,5 +38,6 @@ This project requires no special modules
 Please follow the bellow steps
 
 - Please clone down the project from git@github.com:MaJaWh/cruise-ships.git
+- Once inside the cruise-ships folder.
 - Run NPM Install in the root directory to download node modules.
--
+- Tests can be run by typing $npm run test in the command line
