@@ -1,6 +1,6 @@
 # CRUISE-SHIPS with GUI
 
-## CONTENTS OF THIS FILE
+### CONTENTS OF THIS FILE
 
 - Introduction
 - Learning Objectives
@@ -8,12 +8,12 @@
 - Requirements
 - Installation
 
-## INTRODUCTION
+### INTRODUCTION
 
 This project was completed as part of the 6th week of the Manchester Codes Software Engineering Course. This was my second adventure into Object Oriented Programming using Java Script. This project focused on learning how prototypal inheritance works between classes. We focused on what methods and properties each method should have and how they pass these properties to other classes.
 The whole project was created using TTD and how to isolate objects in tests and how we test behaviour thats outside our control.
 
-## LEARNING OBJECTIVES
+### LEARNING OBJECTIVES
 
 - Can you explain what Object-oriented Programming is?
 - Can you effectively break down a user story into a domain model?
@@ -21,7 +21,7 @@ The whole project was created using TTD and how to isolate objects in tests and 
 - Can you use mocks to emulate dependencies in tests?
 - Can you use spies to track call history of other functions?
 
-## CONCEPTS
+### CONCEPTS
 
 - Domain Modelling
 - Object-oriented Programming
@@ -29,11 +29,11 @@ The whole project was created using TTD and how to isolate objects in tests and 
 - Mocks
 - Spies
 
-## REQUIREMENTS
+### REQUIREMENTS
 
 This project requires no special modules
 
-## INSTALLATION
+### INSTALLATION
 
 Please follow the bellow steps
 
